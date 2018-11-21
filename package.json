@@ -1,0 +1,24 @@
+{
+  "name": "puppeteer-lambda",
+  "version": "1.0.0",
+  "description": "We want to test the HTML5 client under load to see how it performs (and find bug quickly).  With the help of [chromeless](https://github.com/prismagraphql/chromeless), we can launch hundreds of chrome instances via Amazon Lambda that load the HTML5 client.",
+  "main": "run.js",
+  "dependencies": {
+    "chromeless": "^1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "source env.sh && node run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blindsidenetworks/puppeteer-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blindsidenetworks/puppeteer-lambda/issues"
+  },
+  "homepage": "https://github.com/blindsidenetworks/puppeteer-lambda#readme"
+}

@@ -53,9 +53,9 @@ main() {
 }
 
 run_series() {
-  COUNTER=0
+  COUNTER=100
   while [ $COUNTER -lt $COUNT ]; do
-    let COUNTER=COUNTER+1
+    let COUNTER=COUNTER+5
 
     spawn $COUNTER
     sleep 10
