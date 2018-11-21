@@ -65,7 +65,7 @@ async function proccess(length) {
 }
 
 try {
-  proccess(300);
+  proccess(100);
 } catch (e) {
   console.error(e);
 }
